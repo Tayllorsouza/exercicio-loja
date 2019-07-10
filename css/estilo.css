@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  header {
+    background-color: #333;
+    height: 3em;
+    color: #fff;
+    margin-bottom: 1em;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+  
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    
+  }
+  
+  
+  table {
+    width: 100%;
+    margin-bottom: 0.5em;
+    
+  }
+  
+  td,
+  th {
+    padding: 0.7em;
+    margin: 0;
+    /*text-align: center;*/
+     /*border: 1px solid #ccc;*/
+     padding-left: 30px;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #eee;
+  }
+  
+  label {
+    color: #555;
+    display: block;
+    margin-bottom: 0.2em;
+  }
+  
+  .botao {
+      display: flex;
+  }
+
+  .a {
+      background-color: blue;
+      border-radius: 80px;
+      
+  }
+
+  .vendas{
+    border-radius: 50%;
+    border:4px solid black;
+
+    
+  
+  }
+  .info-nome {
+   margin-right: 100px;
+   
+
+  }
+  
+  .tabela-vendas{
+    background-image: url(../img/fundo3.jpg);
+    
+
+  }
+
+  .fotos{
+    border-radius: 10%;
+    border:3px solid black;
+    
+  }
+
+  .info-availability {
+    vertical-align: inherit;
+    text-align: center;
+
+  }
+
+  .info-total {
+    vertical-align: inherit;
+    text-align: center;
+
+  }
+
+  .texto {
+    vertical-align: inherit;
+    text-align: center;
+  }
+
+  button {
+    
+    border-radius: 15px;
+    color: rgb(2, 17, 17);
+    background-color: rgb(7, 132, 163);
+    border-color: rgb(82, 83, 83);
+    width: 80px;
+    height: 60px;
+    display: block;
+    margin: 10px 0px;
+}
